@@ -1,8 +1,6 @@
 ﻿<p><img src="https://raw.github.com/Humanizr/Humanizer/master/logo.png" alt="Logo" style="max-width:100%;" /></p>
  
- <p>
- [![Build Status](https://dev.azure.com/superusers-kursus/devops/_apis/build/status/working-ok/Humanizr-Nuget-Package-Build/Jalalhejazi.Humanizer?branchName=master)](https://dev.azure.com/superusers-kursus/devops/_build/latest?definitionId=19&branchName=master)
-</p>
+[![Build Status](https://dev.azure.com/superusers-kursus/devops/_apis/build/status/working-ok/Humanizr-Nuget-Package-Build/Jalalhejazi.Humanizer?branchName=master)](https://dev.azure.com/superusers-kursus/devops/_build/latest?definitionId=19&branchName=master)
 
 [<img align="right" width="100px" src="https://dotnetfoundation.org/images/logo_big.svg" />](https://dotnetfoundation.org/projects?type=project&q=humanizer)
 
