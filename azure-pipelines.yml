@@ -40,7 +40,7 @@ steps:
     $version = .\nbgv get-version -f json | ConvertFrom-Json
     $nuspecs = gci .\NuSpecs\*.nuspec 
     foreach ($item in $nuspecs) {
-      dotnet pack .\src\Humanizer\Humanizer.csproj --no-build -o $(Build.ArtifactStagingDirectory)\Packages /p:NuspecFile=$($item.FullName) /p:NuspecBasePath=..\ /p:NuspecProperties="version=$($version.NuGetPackageVersion);RepositoryType=git;RepositoryCommit=$($version.GitCommitId);RepositoryUrl=https://github.com/Humanizr/Humanizer" 
+      dotnet pack .\src\Humanizer\Humanizer.csproj --no-build -o $(Build.ArtifactStagingDirectory)\Packages /p:NuspecFile=$($item.FullName) /p:NuspecBasePath=..\ /p:NuspecProperties="version=$($version.NuGetPackageVersion);RepositoryType=git;RepositoryCommit=$($version.GitCommitId);RepositoryUrl=https://github.com/Jalalhejazi/Humanizer" 
     }
   displayName: Create packages
   
