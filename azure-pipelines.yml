@@ -67,3 +67,7 @@ steps:
     pathToPublish: $(Build.ArtifactStagingDirectory)\Packages
     artifactType: container
     artifactName: Packages
+
+- powershell: |
+    write-host $env:x
+  displayName: working with env
